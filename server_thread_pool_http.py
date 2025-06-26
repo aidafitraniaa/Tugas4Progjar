@@ -4,7 +4,7 @@ import time
 import sys
 import logging
 import multiprocessing
-from concurrent.futures import ProcessPoolExecutor
+from concurrent.futures import ThreadPoolExecutor
 from http import HttpServer
 
 httpserver = HttpServer()
