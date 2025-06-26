@@ -9,8 +9,6 @@ from http import HttpServer
 
 httpserver = HttpServer()
 
-#untuk menggunakan processpoolexecutor, karena tidak mendukung subclassing pada process,
-#maka class ProcessTheClient dirubah dulu menjadi function, tanpda memodifikasi behaviour didalamnya
 
 def ProcessTheClient(connection,address):
 		rcv=""
